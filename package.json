@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgtalbot/my-portfolio.git"
+  },
+  "author": "Ryan Talbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgtalbot/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/rgtalbot/my-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7",
+    "request": "^2.76.0"
+  }
+}

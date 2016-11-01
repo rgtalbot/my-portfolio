@@ -1,0 +1,152 @@
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1 id="homeHeading">RYAN TALBOT</h1>
+            <hr>
+            <p>WEB DESIGNER, DEVELOPER & PODCAST JUNKIE</p>
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+        </div>
+    </div>
+</header>
+
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">About Me</h2>
+                <hr class="light">
+                <img src="assets/img/headshot.jpg" alt="Ryan Headshot" class="headshot">
+                <p class="about text-faded">Hello! Thanks for stopping by my site. Before you look around, let me tell
+                    you a little about myself. I have spent the past 4 years as an independent financial advisor with
+                    Raymond James. Recently, I decided to give it all up and follow something I was more passionate
+                    about. As soon as I discovered the world of programming, I instantly fell in love. I have so much
+                    fun writing even the most simple of code and watching it work. And that is where I am today.
+                    Attending the UCF Coding Boot Camp and using every resource I can get my hands on to consume as much
+                    knowledge as possible. I am looking forward to becoming a full stack web developer and building and
+                    fixing things for people every day.</p>
+                <p class="about text-faded">In addition to learning to code, my other hobbies include golf, running,
+                    serving at my church, listening to podcasts and spending time with my wife. We have been married for
+                    3 years and while we do not have any kids yet, we do have a 2 year old black labrador named Miles
+                    who keeps us both plenty busy. Some of my favorite podcasts include 'Wait Wait ... Don't Tell Me!',
+                    Developer Tea, MarketFoolery, JavascriptJabber, Stuff You Should Know, The Bill Simmons Podcast,
+                    This American Life, and Learn to Code With Me.</p>
+                <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Skills</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-1 text-center">
+                <div class="service-box">
+                    <img src="assets/img/icons/html.png" alt="HTML">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="col-sm-2 text-center">
+                <div class="service-box">
+                    <img src="assets/img/icons/css.png" alt="CSS">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="col-sm-2 text-center">
+                <div class="service-box">
+                    <img src="assets/img/icons/bootstrap.png" alt="Bootstrap">
+                    <h3>Bootstrap</h3>
+                </div>
+            </div>
+            <div class="col-sm-2 text-center">
+                <div class="service-box">
+                    <img src="assets/img/icons/jquery.png" alt="jQuery">
+                    <h3>jQuery</h3>
+                </div>
+            </div>
+            <div class="col-sm-2 text-center">
+                <div class="service-box">
+                    <img src="assets/img/icons/node.png" alt="Node.JS">
+                    <h3>Node.js</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {{#each project}}
+                <div class="col-lg-4 col-sm-6">
+                <a href="" class="portfolio-box modalClick" id="{{name}}" data-toggle="modal" data-target="#modal">
+                    <img src="{{cardImg}}" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                {{main}}
+                            </div>
+                            <div class="project-name">
+                                {{second}}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="primary">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-xs-2 col-xs-offset-3">
+                <a href="https://www.linkedin.com/in/rgtalbot" target="_blank"><i
+                        class="fa fa-linkedin fa-4x sr-contact"></i></a>
+            </div>
+            <div class="col-xs-2">
+                <a href="https://twitter.com/rgtalbot" target="_blank"><i
+                        class="fa fa-twitter fa-4x sr-contact"></i></a>
+            </div>
+            <div class="col-xs-2">
+                <a href="https://github.com/rgtalbot" target="_blank"><i class="fa fa-github fa-4x sr-contact"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="footerwrap">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-4 col-xs-4">
+                <p><b>&copy; Copyright Ryan Talbot</b></p>
+            </div>
+            <div class="col-sm-4 col-xs-4">
+                <p>Orlando, FL</p>
+            </div>
+            <div class="col-sm-4 col-xs-4">
+                <a href="mailto:rgtalbot@gmail.com?Subject=Saw%20your%20website" target="_top"><p>rgtalbot@gmail.com</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL HERE -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="hangmanLabel">
+    {{> modal}}
+</div>
+<!--END MODAL-->
