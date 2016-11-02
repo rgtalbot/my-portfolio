@@ -21,7 +21,7 @@ var projects = [{
     title: "Game of Thrones Trivia",
     role: "ROLE: LEAD DESIGNER",
     pageContent: [
-        "This is a quick trivia game I built based on Game of Thrones. It jsues javascript for logic as well as jQuery and Bootstrap CSS. The game logs correct and incorrect answers, displays the correct answer with a gif, and then after a timeout, moves on to the next question."
+        "This is a quick trivia game I built based on Game of Thrones. It uses javascript for logic as well as jQuery and Bootstrap CSS. The game logs correct and incorrect answers, displays the correct answer with a gif, and then after a timeout, moves on to the next question."
         ,
         "Once the game is over, the number of correct and incorrect answers are displayed along with the play again button. Playing again randomly draws 10 questions from the question bank so that you never get the same 10 questions in a row"
         ,
