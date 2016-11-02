@@ -1,4 +1,11 @@
 var projects = [{
+    name: "myportfolio",
+    main: "MY PORTFOLIO",
+    second: "",
+    title: "My Personal Website",
+    role: "ROLE: LEAD DEVELOPER"
+},
+    {
     name: "rentaldashpro",
     main: "RENTALDASH PRO",
     second: "PROPERTY MANAGEMENT SYSTEM",
@@ -54,36 +61,6 @@ var projects = [{
     images: ["assets/img/portfolio/trivia/thrones1.png",
         "assets/img/portfolio/trivia/thrones2.png",
         "assets/img/portfolio/trivia/thrones3.png"]
-}, {
-    name: "template",
-    main: "Category",
-    second: "Project Name",
-    title: "PLACEHOLDER",
-    role: "ROLE: LEAD DESIGNER",
-    pageContent: [
-        "Lorem Impsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centures, but also the leap into electronic typesetting, remaining essentially unchanged."
-        ,
-        "Bacon ipsum dolor amet tri-tip short loin prosciutto, short ribs jerky rump landjaeger hamburger beef filet mignon. Tri-tip short ribs ground round landjaeger hamburger andouille turducken rump alcatra. Jerky porchetta flank, ham hock sausage landjaeger brisket. Strip steak shoulder prosciutto pork loin cupim, pork belly meatball. Cupim spare ribs andouille fatback. Andouille frankfurter jerky, cow biltong ribeye ground round short ribs. Hamburger pork belly sausage, landjaeger kevin leberkas tenderloin pig drumstick andouille alcatra pork chop jerky rump fatback."
-    ],
-    pageLink: "",
-    gitLink: "",
-    cardImg: "assets/img/portfolio/portfolio5.jpg",
-    images: ["assets/img/portfolio/template/pr01.jpg", "assets/img/portfolio/template/pr02.jpg"]
-}, {
-    name: "template",
-    main: "Category",
-    second: "Project Name",
-    title: "PLACEHOLDER",
-    role: "ROLE: LEAD DESIGNER",
-    pageContent: [
-        "Lorem Impsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centures, but also the leap into electronic typesetting, remaining essentially unchanged."
-        ,
-        "Bacon ipsum dolor amet tri-tip short loin prosciutto, short ribs jerky rump landjaeger hamburger beef filet mignon. Tri-tip short ribs ground round landjaeger hamburger andouille turducken rump alcatra. Jerky porchetta flank, ham hock sausage landjaeger brisket. Strip steak shoulder prosciutto pork loin cupim, pork belly meatball. Cupim spare ribs andouille fatback. Andouille frankfurter jerky, cow biltong ribeye ground round short ribs. Hamburger pork belly sausage, landjaeger kevin leberkas tenderloin pig drumstick andouille alcatra pork chop jerky rump fatback."
-    ],
-    pageLink: "",
-    gitLink: "",
-    cardImg: "assets/img/portfolio/portfolio5.jpg",
-    images: ["assets/img/portfolio/template/pr01.jpg", "assets/img/portfolio/template/pr02.jpg"]
 }, {
     name: "template",
     main: "Category",
