@@ -1,10 +1,11 @@
-var projects = [{
-    name: "myportfolio",
-    main: "MY PORTFOLIO",
-    second: "",
-    title: "My Personal Website",
-    role: "ROLE: LEAD DEVELOPER"
-},
+var projects = [
+//     {
+//     name: "myportfolio",
+//     main: "MY PORTFOLIO",
+//     second: "",
+//     title: "My Personal Website",
+//     role: "ROLE: LEAD DEVELOPER"
+// },
     {
     name: "rentaldashpro",
     main: "RENTALDASH PRO",
