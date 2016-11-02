@@ -1,4 +1,23 @@
 var projects = [{
+    name: "rentaldashpro",
+    main: "RENTALDASH PRO",
+    second: "PROPERTY MANAGEMENT SYSTEM",
+    title: "RentalDash Pro - Property Management Dashboard",
+    role: "ROLE: JAVASCRIPT/FIREBASE DEVELOPER",
+    pageContent: [
+        // A web app that allows users to manage rental properties they own all in one convenient dashboard
+        // I worked on a team, and I was responsible for all of the CSS, use and implementation of parsely.js and chart.js, Firebase storage for user information, as well as assisting on JavaScript and jQuery writing.
+        "RentalDash Pro is a web app to help people manage rental properties they own all in one convenient dashboard.",
+        "I worked on a team and was mainly responsible for the UX/UI as well as Firebase for data storage. I used javascript libraries like parsely.js and chart.js to enhance the user experience with form validation and charts for displaying data. I also used Firebase to store user data and call it back with AJAX calls"
+    ],
+    pageLink: "https://www.rentaldashpro.com",
+    gitLink: "https://github.com/rgtalbot/rentaldashpro",
+    cardImg: "assets/img/portfolio/rentaldashpro/rdpcard.png",
+    images: ["assets/img/portfolio/rentaldashpro/rdpmain.png",
+        "assets/img/portfolio/rentaldashpro/rdpchart.png",
+        "assets/img/portfolio/rentaldashpro/rdpform.png"]
+
+},{
     name: "hangman",
     main: "HANGMAN GAME",
     second: "80's MOVIES STYLE",
@@ -11,7 +30,7 @@ var projects = [{
     ],
     pageLink: "https://eightieshangman.herokuapp.com/",
     gitLink: "https://github.com/rgtalbot/week-3-game",
-    cardImg: "assets/img/portfolio/portfolio1.png",
+    cardImg: "assets/img/portfolio/hangman/hangmancard.png",
     images: ["assets/img/portfolio/hangman/hangman1.png"]
 
 }, {
