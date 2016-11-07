@@ -8,7 +8,6 @@ router.get("/", function (req, res) {
 });
 
 router.get("/:project", function (req, res) {
-    console.log(req.params.project);
     var param = req.params.project;
     var result = Projects.filter(function (e) {
         return e.name == param

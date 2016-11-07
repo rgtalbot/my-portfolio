@@ -1,24 +1,5 @@
 var projects = [
     {
-        name: "mydirectory",
-        main: "MYDIRECTORY.IO",
-        second: "CONTACT MANAGEMENT SYSTEM",
-        title: "MyDirectory.io - Contact Management System",
-        role: "ROLE: WEB APP DEVELOPER",
-        pageContent: [
-            "one",
-            "tw0",
-            "three"
-        ],
-        pageLink: "http://mydirectory-io.herokuapp.com/",
-        gitLink: "https://github.com/ronnytomasetti/mydirectory",
-        cardImg: "",
-        images: [
-            "one",
-            "two"
-        ]
-    },
-    {
         name: "rentaldashpro",
         main: "RENTALDASH PRO",
         second: "PROPERTY MANAGEMENT SYSTEM",
@@ -37,6 +18,24 @@ var projects = [
             "assets/img/portfolio/rentaldashpro/rdpform.png"
         ]
 
+    },{
+        name: "mydirectory",
+        main: "MYDIRECTORY.IO",
+        second: "CONTACT MANAGEMENT SYSTEM",
+        title: "MyDirectory.io - Contact Management System",
+        role: "ROLE: WEB APP DEVELOPER",
+        pageContent: [
+            "MyDirectory.io is a web app to help businesses and employees manage and view their company directory in one convenient location. I worked on a team for the project and was responsible for the web app portion of the project. Although the web app lacks many services and functionality, I really enjoyed working on this project because it gave me the opportunity to learn AngularJS.",
+            "I was able to learn and implement Angular in about 10 days to have the functionality of making some api calls to our custom api we had built using a MySQL database and sequelize as well as displaying the return information and navigating the site with Angular UI router. While the project could be considered incomplete, I learned so much from the project by really diving into Angular and having to pick up a new language on the fly. One of my favorite implementations in this project was to have the sign up form constantly checking our api to make sure that the url a user wanted to sign up with was not already taken.",
+            "In the future, I would like to complete the CRUD routes to update and add users, get the company announcements section working, and give the web app some more functionality in general"
+        ],
+        pageLink: "http://mydirectory-io.herokuapp.com/",
+        gitLink: "https://github.com/ronnytomasetti/mydirectory",
+        cardImg: "assets/img/portfolio/mydirectory/mydirectorycard.png",
+        images: [
+            "assets/img/portfolio/mydirectory/mydirectory1.png",
+            "assets/img/portfolio/mydirectory/mydirectory2.png"
+        ]
     }, {
         name: "hangman",
         main: "HANGMAN GAME",
