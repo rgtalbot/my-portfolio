@@ -9,7 +9,7 @@ var projects = [
             "RentalDash Pro is a web app to help people manage rental properties they own all in one convenient dashboard.",
             "I worked on a team and was mainly responsible for the UX/UI as well as Firebase for data storage. I used javascript libraries like parsely.js and chart.js to enhance the user experience with form validation and charts for displaying data. I also used Firebase to store user data and call it back with AJAX calls"
         ],
-        pageLink: "https://www.rentaldashpro.com",
+        pageLink: "http://www.rentaldashpro.com",
         gitLink: "https://github.com/rgtalbot/rentaldashpro",
         cardImg: "assets/img/portfolio/rentaldashpro/rdpcard.png",
         images: [
